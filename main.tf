@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "remote" {
-    organization = "my-organization-name"
+    organization = "terraform_tuto"
 
     workspaces {
       name = "gh-actions-demo"
