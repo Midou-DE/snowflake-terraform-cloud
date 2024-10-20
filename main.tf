@@ -23,8 +23,8 @@ resource "snowflake_database" "demo_db" {
 }
 resource "snowflake_schema" "demo_schema" {
   database = snowflake_database.demo_db.name
-  name    = "DEMO_SCH"
-  comment = " create first schema for Snowflake Terraform demo"
+  name    = "DEMO_SCHEMA"
+  comment = " create first schema for Snowflake Terraform demo "
 }
 
 
